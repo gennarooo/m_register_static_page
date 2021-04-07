@@ -3,9 +3,11 @@ Utility to register custom static pages in Wordpress settings page.
 It will add an option to select a static page for custom purpose in Settings->reading that can be recall anywhere.
 
 ## Installation
-Add functions to your wordpress theme
+Copy/paste in your theme functions.php or include in your theme.
 
 ## Use
+To register a static page
+
     m_register_static_page('page_id', 'Page Label');
   
 where 'page_id' is a unique id for identify that page (eg: faq_page) and 'Page Label' is the label used as option in settings page and *post status* in pages list (eg: Frequent Questions Page).
