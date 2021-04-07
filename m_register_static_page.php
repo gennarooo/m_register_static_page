@@ -1,10 +1,9 @@
 <?php
 
-m_register_static_page('faq_page', 'FAQs Page');
-
 /**
  * @param string $id		ID to assign to page
  * @param string $label	Label for the static page
+ * @example m_register_static_page('faq_page', 'FAQs Page');
  */
 
 function m_register_static_page($id, $label){
