@@ -12,10 +12,10 @@ To register a static page
   
 where 'page_id' is a unique id for identify that page (eg: faq_page) and 'Page Label' is the label used as option in settings page and *post status* in pages list (eg: Frequent Questions Page).
 
-To get the selected page ID to use the wordpress function 
+To get the selected page ID, use the wordpress function:
 
     get_option('page_id);
 
-To check if the current page is the selected one, use the included function
+To check if the current page is the selected one, use the included function:
 
     m_is_static_page('page_id');
